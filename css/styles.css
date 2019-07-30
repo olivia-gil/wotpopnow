@@ -1,68 +1,68 @@
-body {
-background: rgb(255,80,200);
+body{
+
+        color: rgb(255,178,102);
+        font-family:monospace;
+        margin:50px;
+      }
+div {
+
+        min-height: 50vh;
+        width: 100vw;
 }
 
-  h2{
-    color: purple;
-}
-  p{
-    color:red;
-    font-family:cursive;
-    margin:20px;
+h1,h2{
+  text-align:center;
 }
 
-div{
-  min-height: 50vh;
-  width: 100vw;
-}
+h1{
 
-h1, h2 {
-  text-align: center;
-}
+  font-size:5em;
 
-h1 {
-  font-size: 5em;
 }
-
-h2 {
-  font-size: 2em;
-}
-
 img {
-  display: flex;
-  padding: 20px;
+
+    display: flex;
+    padding: 20px;
   margin: 0 auto;
-  border-radius: 130px;
+    border-radius:130px;
+
 }
 
-li#lower {
-  margin-top: 7%;
-}
-
-li#lowest {
-  margin-bottom: 50%;
-  margin-left: 10%;
-}
-
-div.contrast {
-  background-color: rgb(0, 0, 0);
-  color: rgb(255, 255, 255);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
 
 ul {
-  list-style: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
 }
 
 li {
-  margin: 0 20px
-  transition: 0.6s ease;
+  float: left;
 }
 
-li:hover {
-  font-size: 1.2em;
-  transition: 0.6s ease;
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+.active {
+  background-color: #4CAF50;
+}
+
+div.contrast {
+  background-color: rgba(255, 0, 0, 0.5);
+  color: (255,255,255)
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }

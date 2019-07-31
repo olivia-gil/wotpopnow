@@ -1,14 +1,19 @@
 body{
 
         color: rgb(255,178,102);
-        font-family: press start 2P ;
+        font-family:"Raleway";
         margin:50px;
         text-align: center;
       }
 
+h1{
+  font-family:"Bungee Shade";
+  color: black;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: rgba(146,70,194,1);
+  background-image: linear-gradient(to right, #BBFF30, #6CD0E8, #9646BB, #FF7CB5);
   overflow: hidden;
 }
 

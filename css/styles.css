@@ -1,25 +1,27 @@
 body{
 
         color: rgb(255,178,102);
-        font-family:monospace;
+        font-family:"Raleway";
         margin:50px;
+        text-align: center;
       }
-div {
 
-        min-height: 50vh;
-        width: 100vw;
+h1{
+  font-family:"Bungee Shade";
+  color: black;
+  font-size:5em;
 }
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-image: linear-gradient(to right, #BBFF30, #6CD0E8, #9646BB, #FF7CB5);
   overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: #white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -28,22 +30,18 @@ div {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: rgb(146,70,194,0.3);
   color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #4CAF50;
+  background-color: rgb(187,255,47,1);
   color: white;
 }
 h1,h2{
   text-align:center;
 }
-
-h1{
-
-  font-size:5em;
 
 }
 img {
@@ -54,3 +52,10 @@ img {
     border-radius:130px;
 
 }
+
+div.Instagram {
+  height: 10em;
+  display: flex;
+  align-items: center }
+div.container5 p {
+  margin: 0 }

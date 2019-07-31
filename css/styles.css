@@ -53,9 +53,8 @@ img {
 
 }
 
-div.Instagram {
+div.instagram {
   height: 10em;
   display: flex;
-  align-items: center }
-div.container5 p {
-  margin: 0 }
+  align-items: center
+ }

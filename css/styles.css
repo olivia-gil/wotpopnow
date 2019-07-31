@@ -12,6 +12,12 @@ h1{
   font-size:5em;
 }
 
+h2{
+  font-family:"Bungee Hairline";
+  color: black;
+  font-size:1.8em;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
   background-image: linear-gradient(to right, #BBFF30, #6CD0E8, #9646BB, #FF7CB5);
@@ -21,11 +27,12 @@ h1{
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 29px;
+  font-family:"Bungee Hairline"
 }
 
 /* Change the color of links on hover */

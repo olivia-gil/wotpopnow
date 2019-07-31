@@ -9,6 +9,7 @@ body{
 h1{
   font-family:"Bungee Shade";
   color: black;
+  font-size:5em;
 }
 
 /* Add a black background color to the top navigation */
@@ -41,10 +42,6 @@ h1{
 h1,h2{
   text-align:center;
 }
-
-h1{
-
-  font-size:5em;
 
 }
 img {

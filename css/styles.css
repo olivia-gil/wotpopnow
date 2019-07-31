@@ -6,6 +6,14 @@ body{
         text-align: center;
       }
 
+<<<<<<< Updated upstream
+=======
+classh1{
+  font-family:"Bungee Shade";
+  color: black;
+}
+
+>>>>>>> Stashed changes
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: rgba(146,70,194,1);
